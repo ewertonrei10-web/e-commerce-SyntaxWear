@@ -4,178 +4,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="SyntaxWear: moda urbana com frete grátis, devolução fácil e looks em até 12x sem juros. Descubra tendências em camisetas, moletons e acessórios.">
-    <title>SyntaxWear | Moda urbana com estilo e entrega rápida</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/layout.css">
-    <link rel="stylesheet" href="css/components/header.css">
-    <link rel="stylesheet" href="css/components/panel.css">
-    <link rel="stylesheet" href="css/components/hero.css">
-    <link rel="stylesheet" href="css/components/product-grid.css">
-    <link rel="stylesheet" href="css/components/product-card.css">
-    <link rel="stylesheet" href="css/components/footer.css">
-    <link rel="stylesheet" href="css/components/newsletter.css">
+    <title>SyntaxWear - Ecommerce</title>
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/layout.css">
 </head>
 
 <body>
-    <a class="skip-link" href="#main-content">Ir para o conteúdo principal</a>
-
-    <header class="site-header" role="banner">
-        <div class="site-header__inner container">
-            <a href="index.html" class="site-header__brand">SyntaxWear</a>
-            <nav class="site-header__nav" aria-label="Navegação principal">
-                <ul class="nav__list">
-                    <li><a class="nav__link nav__link--active" href="#painel">Vantagens</a></li>
-                    <li><a class="nav__link" href="#destaque">Destaque</a></li>
-                    <li><a class="nav__link" href="#produtos">Produtos</a></li>
-                    <li><a class="nav__link" href="#newsletter">Newsletter</a></li>
-                </ul>
-            </nav>
-            <div class="site-header__actions">
-                <a class="button button--ghost" href="#login">Login</a>
-                <a class="button button--primary" href="#cadastro">Cadastro</a>
-            </div>
-        </div>
+    <header class="site-header">
+         <!-- Logo e Navegação -->
     </header>
 
-    <main id="main-content" class="page-main">
-        <section id="painel" class="panel" aria-labelledby="painel-title">
-            <h2 id="painel-title" class="panel__title">Vantagens SyntaxWear</h2>
-            <div class="panel__items cluster cluster--responsive">
-                <article class="panel__item">
-                    <span class="panel__icon" aria-hidden="true">🚚</span>
-                    <div>
-                        <p class="panel__eyebrow">Frete rápido</p>
-                        <p>Entrega expressa para todo o Brasil.</p>
-                    </div>
-                </article>
-                <article class="panel__item">
-                    <span class="panel__icon" aria-hidden="true">🔁</span>
-                    <div>
-                        <p class="panel__eyebrow">Devolução fácil</p>
-                        <p>Troca e devolução grátis em até 30 dias.</p>
-                    </div>
-                </article>
-                <article class="panel__item">
-                    <span class="panel__icon" aria-hidden="true">💳</span>
-                    <div>
-                        <p class="panel__eyebrow">Parcelamento</p>
-                        <p>Até 12x sem juros no cartão.</p>
-                    </div>
-                </article>
-            </div>
+    <main>
+        <section class="hero-section">
+            <!-- Seção de hero -->
         </section>
 
-        <section id="destaque" class="hero" aria-labelledby="hero-title">
-            <div class="hero__visual"></div>
-            <div class="hero__content container">
-                <p class="hero__eyebrow">Nova coleção urbana</p>
-                <h1 id="hero-title" class="hero__title">Seu estilo, sua atitude.</h1>
-                <p class="hero__text">Roupas streetwear com design autoral, conforto premium e qualidade que acompanha
-                    seu ritmo.</p>
-                <div class="hero__actions cluster">
-                    <a class="button button--primary" href="#produtos">Ver produtos</a>
-                    <a class="button button--ghost" href="#newsletter">Assine novidades</a>
-                </div>
-            </div>
+        <section  class="categories-section">
+            <header>
+                <h2>Categorias de Tênis</h2>
+            </header>
+            <!-- Seção de categorias de tênis -->
         </section>
 
-        <section id="produtos" class="product-grid" aria-labelledby="produtos-title">
-            <div class="container">
-                <div class="product-grid__header cluster cluster--space-between">
-                    <div>
-                        <h2 id="produtos-title">Coleção em destaque</h2>
-                        <p>Seleção de peças com estilo, conforto e valor acessível.</p>
-                    </div>
-                    <span class="badge badge--info">Novidades</span>
-                </div>
-                <ul class="product-grid__list grid grid--responsive" role="list">
-                    <li class="product-card product-card--new">
-                        <img src="https://via.placeholder.com/400x500" alt="Camiseta preta com estampa minimalista"
-                            class="product-card__image">
-                        <div class="product-card__body">
-                            <p class="product-card__meta">Camiseta</p>
-                            <h3 class="product-card__title">Camiseta Minimal</h3>
-                            <p class="product-card__price">R$ 129,00</p>
-                        </div>
-                    </li>
-                    <li class="product-card product-card--sale">
-                        <img src="https://via.placeholder.com/400x500" alt="Moletom cinza com capuz e bolso canguru"
-                            class="product-card__image">
-                        <div class="product-card__body">
-                            <p class="product-card__meta">Moletom</p>
-                            <h3 class="product-card__title">Moletom Urban</h3>
-                            <p class="product-card__price"><span class="product-card__price--old">R$ 259,00</span> R$
-                                199,00</p>
-                        </div>
-                    </li>
-                    <li class="product-card">
-                        <img src="https://via.placeholder.com/400x500" alt="Boné preto com logo bordado"
-                            class="product-card__image">
-                        <div class="product-card__body">
-                            <p class="product-card__meta">Acessório</p>
-                            <h3 class="product-card__title">Boné Signature</h3>
-                            <p class="product-card__price">R$ 89,00</p>
-                        </div>
-                    </li>
-                    <li class="product-card">
-                        <img src="https://via.placeholder.com/400x500" alt="Calça cargo bege com bolsos amplos"
-                            class="product-card__image">
-                        <div class="product-card__body">
-                            <p class="product-card__meta">Calça</p>
-                            <h3 class="product-card__title">Calça Cargo</h3>
-                            <p class="product-card__price">R$ 179,00</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+        <section class="featured-products-section">
+            <!-- Informação sobre os produtos em destaque -->
         </section>
     </main>
 
-    <footer class="site-footer" aria-labelledby="footer-title">
-        <div class="container site-footer__inner grid grid--footer">
-            <section class="site-footer__col" aria-labelledby="footer-about-title">
-                <h2 id="footer-about-title">Sobre a SyntaxWear</h2>
-                <p>Moda urbana pensada para quem vive com atitude. Conforto, estilo e responsabilidade em cada peça.</p>
-            </section>
-            <section class="site-footer__col" aria-labelledby="footer-help-title">
-                <h2 id="footer-help-title">Ajuda</h2>
-                <ul class="footer__list">
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Pedido e entrega</a></li>
-                    <li><a href="#">Trocas e devoluções</a></li>
-                </ul>
-            </section>
-            <section class="site-footer__col" aria-labelledby="footer-social-title">
-                <h2 id="footer-social-title">Redes sociais</h2>
-                <ul class="footer__list">
-                    <li><a href="#">Instagram</a></li>
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">TikTok</a></li>
-                </ul>
-            </section>
-            <section class="site-footer__col" aria-labelledby="footer-payment-title">
-                <h2 id="footer-payment-title">Formas de pagamento</h2>
-                <p>Visa, MasterCard, Pix e boleto.</p>
-            </section>
-        </div>
-
-        <section id="newsletter" class="newsletter container" aria-labelledby="newsletter-title">
-            <div class="newsletter__content">
-                <h2 id="newsletter-title">Receba novidades</h2>
-                <p>Ganhe acesso antecipado a lançamentos, promoções e conteúdo exclusivo.</p>
-            </div>
-            <form class="newsletter__form" action="#" method="post">
-                <label class="newsletter__label" for="newsletter-email">E-mail</label>
-                <div class="newsletter__controls">
-                    <input id="newsletter-email" class="newsletter__input" type="email" name="email"
-                        placeholder="seu@email.com" required>
-                    <button type="submit" class="button button--primary">Assinar</button>
-                </div>
-                <p class="newsletter__hint">Nunca enviamos spam. Cancele a assinatura a qualquer momento.</p>
-            </form>
-        </section>
+    <footer class="site-footer">
+        <!-- Conteúdo do footer -->
     </footer>
 </body>
 
