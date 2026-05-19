@@ -3,14 +3,15 @@
     top: 20px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 40px);
+    width: calc(97% - 40px);
     border-radius: 15px;
     z-index: 999;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
+    padding: 0.225rem 1.25rem;
     background-color: #ffffff;
+    
 }
 
 .logo img{
@@ -23,11 +24,13 @@
 }
 .nav-center a, .nav-right a{
   font-size: 1.025rem;
+  color: #333333;
 }
 
 .nav-center a:hover, .nav-right a:hover{
   font-size: 1.025rem;
   color: #7c3aed;
+
 }
 
 .nav-right ul{
@@ -37,6 +40,7 @@
 }
 .nav-right img{
     height: 18px;
+    display: flex;
 }
 .nav-right a:hover img{
     opacity: 0.7;
