@@ -1,7 +1,8 @@
 .hero-section {
     background: url(../../images/banners/hero.jpg) no-repeat center;
     background-size: cover;
-    height: 410px;
+    height: 500px;
+    overflow: hidden;
     position: relative;
 }
 
@@ -36,32 +37,4 @@
 .hero-content .hero-subtitle{
     font-size: 1.25rem;
     font-weight: 400;
-}
-
-.btn{
-    font-size: 1.13rem;
-    width: 114px;
-    height: 33px;
-    border-radius: 25px;
-    text-decoration: none;
-    font-weight: 400;
-    padding: 10px 20px;
-    transition: background-color 0.3s border 0.3s;
-    line-height: 32px;
-}
-
-.btn-outline{
-    background-color: transparent;
-    border: 1.98px solid #ffffff;
-}
-
-.btn-filled{
-    background-color: #ffffff;
-    color: #6329A2;
-}
-
-.btn:hover{
-    background-color: #6329A2;
-    color: #ffffff;
-    border-color: #6329A2;
 }
