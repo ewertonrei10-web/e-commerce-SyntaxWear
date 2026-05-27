@@ -27,23 +27,31 @@
                 <img src="./images/logo/logo.svg" alt="SyntaxWear - Tênis E Sneakers Online">
             </a>
         </h1>
-        <nav class="nav-center" aria-label="Categorias Princiapais">
-            <ul>
-                <li><a href="#">Masculino</a></li>
-                <li><a href="#">Feminino</a></li>
-                <li><a href="#">Outlet</a></li>
-            </ul>
-        </nav>
-        <nav class="nav-right" aria-label="Menu Rápido">
-            <ul>
-                <li><a href="#">Nossas lojas</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#" aria-label="Minha conta"><img src="./images/icons/users.svg" alt="Minha conta" /></a>
-                </li>
-                <li><a href="#" aria-label="Ajuda"><img src="./images/icons/help.svg" alt="Ajuda" /></a></li>
-                <li><a href="#" aria-label="Carrinho"><img src="./images/icons/bag.svg" alt="Carrinho" /></li>
-            </ul>
-        </nav>
+
+        <input type="checkbox" id="menu-toggle" class="menu-toggle"/>
+        <label for="menu-toggle" class="menu-icon">
+            <img src="./images/icons/menu-hamburguer.svg" alt="Menu mobile" />
+        </label>
+
+        <div class="nav-container">
+            <nav class="nav-center" aria-label="Categorias Principais">
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav-right" aria-label="Menu Rápido">
+                <ul>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#" aria-label="Minha conta"><img src="./images/icons/users.svg" alt="Minha conta" /></a></li>
+                    <li><a href="#" aria-label="Ajuda"><img src="./images/icons/help.svg" alt="Ajuda" /></a></li>
+                    <li><a href="#" aria-label="Carrinho"><img src="./images/icons/bag.svg" alt="Carrinho" /></a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <main>
@@ -130,48 +138,9 @@
                 </div>
             </div>
 
-            <!-- <div class="footer-column">
-                    <h3>Masculino</h3>
-                    <ul>
-                        <li><a href="#">Casual</a></li>
-                        <li><a href="#">Esporte</a></li>
-                        <li><a href="#">Moderno</a></li>
-                        <li><a href="#">Futurista</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h3>Feminino</h3>
-                    <ul>
-                        <li><a href="#">Casual</a></li>
-                        <li><a href="#">Esporte</a></li>
-                        <li><a href="#">Moderno</a></li>
-                        <li><a href="#">Futurista</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h3>Outlet</h3>
-                    <ul>
-                        <li><a href="#">Masculino</a></li>
-                        <li><a href="#">Feminino</a></li>
-                        <li><a href="#">Loja física</a></li>
-                        <li><a href="#">Loja online</a></li>
-                    </ul>
-                </div>
-
-                <div class="footer-column">
-                    <h3>Nossas lojas</h3>
-                    <ul>
-                        <li><a href="#">Sobre</a></li>
-                        <li><a href="#">Quem somos</a></li>
-                        <li><a href="#">Missão</a></li>
-                    </ul>
-                </div> -->
-
             <nav class="footer-nav" id="footer">
                 <ul>
-                    <li class="footer-">
+                    <li class="footer-item">
                         <strong>Masculino</strong>
                         <ul>
                             <li><a href="#">Casual</a></li>
@@ -208,8 +177,8 @@
                     <li class="footer-item">
                         <strong>Sobre</strong>
                         <ul>
-                           <li><a href="#">Quem somos</a></li>
-                           <li><a href="#">Missão</a></li>
+                            <li><a href="#">Quem somos</a></li>
+                            <li><a href="#">Missão</a></li>
                         </ul>
                     </li>
                 </ul>
