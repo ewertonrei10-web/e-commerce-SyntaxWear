@@ -9,6 +9,13 @@ main{
     margin: 0 auto;
 }
 
+@media (max-width: 1200px) {
+    main {
+        padding: 0.625rem;
+    }
+    
+}
+
 .btn{
     font-size: 1.13rem;
     width: 114px;
