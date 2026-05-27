@@ -52,3 +52,10 @@
     background: url(../../images/products/tênis\ moderno.jpg) no-repeat center;
     background-size: cover;
 }
+
+
+@media (max-width: 500px) {
+    .category-card {
+        width: 100%;
+    }
+}
